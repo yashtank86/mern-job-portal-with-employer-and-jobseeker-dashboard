@@ -18,25 +18,25 @@ export const jobSeekerFeatures = [
     icon: Search,
     title: "Smart Job Matching",
     description:
-      "AI-Powered algorithm matches with relevant opportunities based on your skills and preferences.",
+      "AI-Powered algorithm matches with relevant opportunities based on your skills and preferences",
   },
   {
     icon: FileText,
     title: "Resume Builder",
     description:
-      "Create professional resumes with our intuitive builder and template designed by experts.",
+      "Create professional resumes with our intuitive builder and template designed by experts",
   },
   {
     icon: MessageSquare,
     title: "Direct Communication",
     description:
-      "Connect directly with hiring managers and recruiters through our secure messaging platform.",
+      "Connect directly with hiring managers and recruiters through our secure messaging platform",
   },
   {
     icon: Award,
     title: "Skill Assessment",
     description:
-      "Showcase your abilities with verified skill tests and earn badges that employer trust.",
+      "Showcase your abilities with verified skill tests and earn badges that employer trust",
   },
 ];
 
@@ -45,25 +45,25 @@ export const employerFeatures = [
     icon: Users,
     title: "Talent Pool Access",
     description:
-      "Access our vast database of pre-screened candidates and find a perfect fit for your team.",
+      "Access our vast database of pre-screened candidates and find a perfect fit for your team",
   },
   {
     icon: BarChart3,
     title: "Analytics Dashboard",
     description:
-      "Track your hiring performance with detail analytics and insights on candidate engagement.",
+      "Track your hiring performance with detail analytics and insights on candidate engagement",
   },
   {
     icon: Shield,
     title: "Verified Candidates",
     description:
-      "All candidates undergo background verification to ensure your hiring trustworthy professionals.",
+      "All candidates undergo background verification to ensure your hiring trustworthy professionals",
   },
   {
     icon: Clock,
     title: "Skill Assessment",
     description:
-      "Streamline hiring process reduces time-to-hire by 60% with automated screening tools.",
+      "Streamline hiring process reduces time-to-hire by 60% with automated screening tools",
   },
 ];
 
