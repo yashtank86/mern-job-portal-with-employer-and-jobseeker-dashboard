@@ -29,6 +29,26 @@ const JobCard = ({ job, onClick, onToggleSave, onApply, saved, hideApply }) => {
     }
   };
 
+  // salary format monthly
+  // const formatSalary = (min, max) => {
+  //   const formatNumber = (num) => {
+  //     if (num >= 10000000) return `\u20B9${(num / 10000000).toFixed(2)}Cr`; // Crore
+  //     if (num >= 100000) return `\u20B9${(num / 100000).toFixed(2)}L`; // Lakh
+  //     if (num >= 1000) return `\u20B9${(num / 1000).toFixed(0)}k`; // Thousand
+  //     return `\u20B9${num}`;
+  //   };
+
+  //   // Convert annual to monthly
+  //   const monthlyMin = min / 12;
+  //   const monthlyMax = max ? max / 12 : null;
+
+  //   if (monthlyMax) {
+  //     return `${formatNumber(monthlyMin)} – ${formatNumber(monthlyMax)} /mo`;
+  //   } else {
+  //     return `${formatNumber(monthlyMin)} /mo`;
+  //   }
+  // };
+
   return (
     <div
       onClick={onClick}
