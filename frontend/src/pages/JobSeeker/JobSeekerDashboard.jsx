@@ -129,7 +129,7 @@ const JobSeekerDashboard = () => {
     });
   };
 
-  const mobileFilterOverlay = () => (
+  const MobileFilterOverlay = () => (
     <div
       className={`fixed inset-0 z-50 lg:hidden ${
         showMobileFilters ? "" : "hidden"
@@ -239,8 +239,8 @@ const JobSeekerDashboard = () => {
                 <div className="flex items-center justify-between lg:justify-end gap-4">
                   {/* Mobile Filter Button */}
                   <button
-                    onClick={() => showMobileFilters(true)}
-                    className="lg:hidden flex items-center gap-2 bg-white px-4 py-2 rounded-xl border border-gray-200 font-medium text-gray-700 hover:bg-gray-50 transition-colors"
+                    onClick={() => setShowMobileFilters(true)}
+                    className="lg:hidden flex items-center gap-2 bg-white px-4 py-2 rounded-xl border border-gray-200 font-medium text-gray-700 hover:bg-gray-50 transition-colors cursor-pointer"
                   >
                     <Filter className="h-4 w-4" />
                     Filters
@@ -316,7 +316,7 @@ const JobSeekerDashboard = () => {
         </div>
 
         {/* Mobile Filter Overlay */}
-        <mobileFilterOverlay />
+        <MobileFilterOverlay />
       </div>
     </div>
   );
