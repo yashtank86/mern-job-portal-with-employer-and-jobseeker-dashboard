@@ -1,23 +1,22 @@
 # 💼 MERN Stack Job Portal
 
-A professional **Job Portal Web Application** built using the **MERN Stack (MongoDB, Express, React, Node.js)** that connects **Employers** and **Job Seekers**.  
-This project demonstrates **real-world full-stack development** skills — including authentication, CRUD operations, file uploads, dynamic filtering, and responsive UI.  
+A full-featured **Job Portal Web Application** built with the **MERN Stack (MongoDB, Express, React, Node.js)** that connects **Employers** and **Job Seekers**.  
+Employers can post and manage jobs, while job seekers can explore, filter, and apply for jobs effortlessly.
 
-> 🧠 Designed to showcase strong **frontend + backend integration** skills — perfect for portfolio and resume highlights.
-
----
-
-## 🚀 Live Demo
-
-🔗 [View Deployed App on Vercel](https://mern-job-portal-deploy.vercel.app)
-
-> ⚠️ **Note:**  
-> - Render’s free tier **automatically shuts down the app** if it hasn't been used for a while.  
->   To load the app, you may need to **refresh the page** after opening the live demo.  
-> - Uploaded **images/files may be removed** due to free-tier storage limitations.
+> 🧠 Designed to showcase strong **frontend + backend integration** skills.
 
 ---
 
+## 🧠 Tech Stack
+
+| Category | Technologies |
+|-----------|---------------|
+| **Frontend** | React, Tailwind CSS, Axios, React Router DOM, Framer Motion, Lucide Icons, React Hot Toast |
+| **Backend** | Node.js, Express.js, MongoDB, Mongoose, Multer, JWT, bcryptjs, dotenv, CORS |
+| **Deployment** | Vercel (Frontend), Render (Backend) |
+
+---
+<!--
 ## 🧩 Features Overview
 
 ### 👔 Employer Dashboard
@@ -37,45 +36,41 @@ This project demonstrates **real-world full-stack development** skills — inclu
 - 💾 Save/Unsave jobs for later.  
 - 👤 Manage profile, upload resume & profile photo.
 
-
-## 🧠 Tech Stack
-
-| Category | Technologies |
-|-----------|---------------|
-| **Frontend** | React, Tailwind CSS, Axios, React Router DOM, Framer Motion, Lucide Icons, React Hot Toast |
-| **Backend** | Node.js, Express.js, MongoDB, Mongoose, Multer, JWT, bcryptjs, dotenv, CORS |
-| **Deployment** | Vercel (Frontend), Render (Backend) |
-
-<!--
-## 🧑‍💼 Demo Credentials
-
-**Employer**  
-📧 `employer@demo.com`  
-🔑 `123456`
-
-**Job Seeker**  
-📧 `jobseeker@demo.com`  
-🔑 `123456`
 -->
+
+## 🧩 Features
+
+### 👔 Employer Side
+✅ **Dashboard:** View total jobs, recent applicants, hired count, and manage job postings.  
+✅ **Post Jobs:** Add new jobs with details like title, location, category (IT, Finance, HR, etc.), and job type (Full-time, Part-time, Internship).  
+✅ **Manage Jobs:**  
+- See how many applicants applied.  
+- Download resumes directly.  
+- Change applicant status (In Review, Accepted, or Rejected).  
+- Toggle job visibility (Active/Closed).
+  
+✅ **Profile Management:** Update employer details like name, profile photo, company name, description, and company logo.
+
 ---
 
-## 🖼️ Screenshots
+### 💼 Job Seeker Side
+✅ **Explore Jobs:**  
+- View all jobs without login.  
+- Filter by **Job Type**, **Category**, or **Salary Range**. 
+- Search by **Job Title** or **City (e.g., Mumbai, Bangalore)**.  
+- Switch between **Grid View** and **List View**.
 
-| Employer Dashboard |
-|:--------------------:|
-| <img width="1600" height="812" alt="Screenshot 2025-11-05 034356" src="https://github.com/user-attachments/assets/a97542de-3cb8-4426-af61-50c3a3839973" /> |
-| **Job Management** |
-| <img width="1600" height="811" alt="Screenshot 2025-11-05 034512" src="https://github.com/user-attachments/assets/c243056d-6665-41e7-84e1-839edd75ecfa" />|
-| **Job Seeker View** |
-| <img width="1600" height="806" alt="Screenshot 2025-11-05 035447" src="https://github.com/user-attachments/assets/8adfe473-893f-4211-8f30-cac418c39650" />|
+✅ **Job Details & Apply:**  
+- View detailed job descriptions with salary range, requirements, and company info.  
+- Apply for jobs (requires login).  
 
-| Job Seeker Profile |
-|:-------------:|
-| <img width="1600" height="807" alt="image" src="https://github.com/user-attachments/assets/0a7b178d-8f99-4546-a206-d9cff9ea7096" /> |
-| **Job Details** |
-|<img width="1600" height="807" alt="image" src="https://github.com/user-attachments/assets/bedc8d9f-10de-4687-a218-cb5dc96e5f44" /> |
-| **Saved Jobs** |
-| <img width="1600" height="806" alt="image" src="https://github.com/user-attachments/assets/8ab87766-2c3d-414d-a9bc-b59868b45325" /> |
+✅ **Save Jobs:**  
+- Bookmark favorite jobs.  
+- Manage all saved jobs on a dedicated page.  
+
+✅ **Profile Management:**  
+- Edit profile (name, profile picture).  
+- Upload or update resume.
 
 ---
 
@@ -114,8 +109,6 @@ Your app will be live at:
 📍 Frontend → `http://localhost:5173`  
 📍 Backend → `http://localhost:8000`
 
----
-
 ## 🧱 Project Directory Structure
 
 ```
@@ -143,6 +136,50 @@ mern-job-portal-with-employer-and-jobseeker-dashboard/
 │
 └── README.md
 ```
+
+---
+
+## 🖼️ Screenshots
+
+| Employer Dashboard |
+|:--------------------:|
+| <img width="1600" height="812" alt="Screenshot 2025-11-05 034356" src="https://github.com/user-attachments/assets/a97542de-3cb8-4426-af61-50c3a3839973" /> |
+| **Job Management** |
+| <img width="1600" height="811" alt="Screenshot 2025-11-05 034512" src="https://github.com/user-attachments/assets/c243056d-6665-41e7-84e1-839edd75ecfa" />|
+| **Job Seeker View** |
+| <img width="1600" height="806" alt="Screenshot 2025-11-05 035447" src="https://github.com/user-attachments/assets/8adfe473-893f-4211-8f30-cac418c39650" />|
+
+| Job Seeker Profile |
+|:-------------:|
+| <img width="1600" height="807" alt="image" src="https://github.com/user-attachments/assets/0a7b178d-8f99-4546-a206-d9cff9ea7096" /> |
+| **Job Details** |
+|<img width="1600" height="807" alt="image" src="https://github.com/user-attachments/assets/bedc8d9f-10de-4687-a218-cb5dc96e5f44" /> |
+| **Saved Jobs** |
+| <img width="1600" height="806" alt="image" src="https://github.com/user-attachments/assets/8ab87766-2c3d-414d-a9bc-b59868b45325" /> |
+
+---
+
+<!--
+## 🧑‍💼 Demo Credentials
+
+**Employer**  
+📧 `employer@demo.com`  
+🔑 `123456`
+
+**Job Seeker**  
+📧 `jobseeker@demo.com`  
+🔑 `123456`
+-->
+
+## ⚙️ Deployment Info
+
+🔗 **Frontend:** Deployed on Vercel 🚀➡️ [Live Demo](https://mern-job-portal-deploy.vercel.app)
+
+> ⚠️ **Note:**  
+> - Backend: Deployed on Render
+> - Render’s free tier **automatically shuts down the app** if it hasn't been used for a while.  
+>   To load the app, you may need to **refresh the page** after opening the live demo.  
+> - Uploaded **images/files may be removed** due to free-tier storage limitations.
 
 ---
 
